@@ -1,0 +1,6 @@
+[submodule "roles/ansible-locale"]
+	path = roles/ansible-locale
+	url = https://github.com/knopki/ansible-locale.git
+[submodule "roles/ansible-elk"]
+	path = roles/ansible-elk
+	url = git@github.com:maxamg/ansible-elk.git

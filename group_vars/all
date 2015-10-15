@@ -1,0 +1,6 @@
+logstash_envvars:
+  - { key: HEROKU_API_KEY, value: "{{ lookup('env','HEROKU_API_KEY') }}" }
+
+heroku:
+  apps:
+    - { name: thoughtbnb }

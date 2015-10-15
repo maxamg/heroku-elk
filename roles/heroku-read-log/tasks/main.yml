@@ -1,0 +1,6 @@
+- name: add logstash heroku inputs
+  template:
+    src=heroku-logstash.conf.j2
+    dest=/etc/logstash/conf.d/{{ item.name }}.conf
+    owner=root group=root mode=644
+  with_items: heroku.apps
