@@ -4,3 +4,4 @@ logstash_envvars:
 heroku:
   apps:
     - { name: thoughtbnb }
+    - { name: thoughtbnb-staging }
