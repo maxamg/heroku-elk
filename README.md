@@ -2,6 +2,10 @@
 
 Tested on: OSX 10.9.5, anisble 1.7.1, vagrant 1.6.3, virtualbox 4.3.16
 
+## Huh?
+
+Simple [maxamg/ansible-elk](../../../ansible-elk) wrapper that adds a single Logstash input for polling logs from a Heroku instance
+
 ### Instructions
 
 1. clone repo
